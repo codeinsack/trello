@@ -39,7 +39,7 @@ interface AddItemButtonProps {
 }
 
 export const AddItemButton = styled.button<AddItemButtonProps>`
-  background-color: #ffffff3d;
+  background-color: green;
   border-radius: 3px;
   border: none;
   color: ${props => (props.dark ? "#000" : "#fff")};
@@ -50,7 +50,7 @@ export const AddItemButton = styled.button<AddItemButtonProps>`
   transition: background 85ms ease-in;
   width: 100%;
   &:hover {
-    background-color: #ffffff52;
+    background-color: forestgreen;
   }
 `
 
