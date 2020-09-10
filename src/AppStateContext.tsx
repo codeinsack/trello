@@ -4,6 +4,7 @@ interface Task {
   id: string
   text: string
 }
+
 interface List {
   id: string
   text: string
