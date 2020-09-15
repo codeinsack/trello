@@ -3,6 +3,7 @@ import { Column } from "./Column"
 import { AppContainer } from "./styles"
 import { useAppState } from "./AppStateContext"
 import { AddNewItem } from "./AddNewItem"
+import { CustomDragLayer } from "./CustomDragLayer";
 
 interface Task {
   id: string
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <AppContainer>
+      <CustomDragLayer />
       {state.lists.map((list, i) => (
         <Column id={list.id} text={list.text} key={list.id} index={i}/>
       ))}
