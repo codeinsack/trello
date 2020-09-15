@@ -3,7 +3,7 @@ import { Column } from "./Column"
 import { AppContainer } from "./styles"
 import { useAppState } from "./AppStateContext"
 import { AddNewItem } from "./AddNewItem"
-import { CustomDragLayer } from "./CustomDragLayer";
+import CustomDragLayer from "./CustomDragLayer";
 
 interface Task {
   id: string
